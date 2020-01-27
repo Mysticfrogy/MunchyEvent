@@ -1,4 +1,6 @@
 # MunchyEvent
+[Java CI](https://github.com/hpfxd/MunchyEvent/workflows/Java%20CI/badge.svg?branch=master)]
+
 Mod to help MunchyMC Event Team members.
 ## Installation
 - Install [Minecraft Forge](https://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.8.9.html) for 1.8.9.
