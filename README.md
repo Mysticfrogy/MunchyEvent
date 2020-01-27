@@ -1,5 +1,5 @@
 # MunchyEvent
-[Java CI](https://github.com/hpfxd/MunchyEvent/workflows/Java%20CI/badge.svg?branch=master)]
+![Java CI](https://github.com/hpfxd/MunchyEvent/workflows/Java%20CI/badge.svg?branch=master)
 
 Mod to help MunchyMC Event Team members.
 ## Installation
@@ -40,3 +40,6 @@ Player notes are a useful feature for many events where you have to keep track o
   If the player has a note, print it. If not, save the player with no note.
   - **/pnote clear**
   Clear all player notes.
+
+### /crr
+See [this page](https://hpfxd.nl/MunchyEvent/docs/crr) for more info about this command.
