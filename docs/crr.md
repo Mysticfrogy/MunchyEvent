@@ -22,11 +22,15 @@ If a map is not supported, please message [hpf](https://hpfxd.nl/) the location 
 - Tell a captain to pick 1-2 players. Once they do, use **/crr pick** to teleport them. Repeat this until there are no more players.
 - Use **/crr tpcaptains** to teleport the captains to their special location.
 - Ask the captains to message you who their first picks are. Then use **/crr fight** to teleport the players.
+
 ___
+
 - Use **/broadcast Fight!** and open the gates to let the players fight.
 - Once both players have left their pods, close the gate.
 - Once a player dies, use **/crr fight** on the winning player to store their win and teleport them back into the fighting pod.
 - Ask the losing player's captain who their next pick is and use **/crr fight** on them.
 - Repeat this until there are no players left, and a team wins.
+
 ___
+
 Once an event is over, use **/crr reset** to reset the game data.
