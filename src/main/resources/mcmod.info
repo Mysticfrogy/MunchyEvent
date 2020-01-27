@@ -1,0 +1,16 @@
+[
+{
+  "modid": "munchyevent",
+  "name": "MunchyEvent",
+  "description": "Mod to help MunchyMC Event Team members.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://hpfxd.nl/",
+  "updateUrl": "",
+  "authorList": ["hpfxd"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
