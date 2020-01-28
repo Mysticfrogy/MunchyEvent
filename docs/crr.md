@@ -1,7 +1,10 @@
 # Classic Red Rover
-MunchyEvent has a feature to make hosting CRR much easier.  
-If a map is not supported, please message [hpf](https://hpfxd.nl/) the location and name of the map you'd like to be supported.
+MunchyEvent has a feature to make hosting CRR much easier.
 
+## Supported maps
+- [Train](map?event=crr&map=train)
+
+If a map is not supported, please message [hpf](https://hpfxd.nl/) the location and name of the map you'd like to be supported.
 ## Commands
 - **/crr reset** Clear game data.
 - **/crr reset &lt;map id&gt;** Clear game data, and set the current map to *map*.
