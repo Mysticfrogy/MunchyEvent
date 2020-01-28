@@ -2,6 +2,16 @@
 ![Java CI](https://github.com/hpfxd/MunchyEvent/workflows/Java%20CI/badge.svg?branch=master)
 
 Mod to help MunchyMC Event Team members.
+
+## Highlight Features
+- No more having to go through a long list of eventspots to find a map, now you can just use [/events](#events)
+- Use [/events reward](#events-reward) to easily reward a player for an event.
+- Easily teleport players and apply skits for manual events with [/mhost](#mhost)
+- Tired of using a notes application for keeping track of players in events? Now you can just use [/pnote](#pnote)
+- Easily host Classic RR events with [/crr](https://hpfxd.nl/MunchyEvent/docs/crr)
+- A command to enchant items has been a requested feature for the event team for a long time. Now you can use [/mitem enchant](#mitem-enchant-enchantment-level)
+- Rename items using [/mitem rename](#mitem-rename-name)
+
 ## Installation
 - Install [Minecraft Forge](https://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.8.9.html) for 1.8.9.
 - Download the jar file from the [latest release](https://github.com/hpfxd/MunchyEvent/releases/latest) of the MunchyEvent mod.
