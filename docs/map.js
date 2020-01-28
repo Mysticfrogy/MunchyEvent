@@ -20,6 +20,7 @@
 
 			if (event.id === "crr" && map.locations) {
 				$("#supports_command").style.display = "block";
+				$("#mapid").innerText = map.id;
 			}
 
 			if (map.authors) {
