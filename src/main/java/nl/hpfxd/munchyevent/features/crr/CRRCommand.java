@@ -159,10 +159,19 @@ public class CRRCommand  extends CommandBase {
                 return;
             }
 
-            mc.thePlayer.sendChatMessage("/eventtphere " + player.getGameProfile().getName()); // event members can't force tp across worlds
-            spectateQueue.put(player, 10 * 20); // 10 seconds
+            EntityPlayer p = MUtil.getEntityPlayerByName(player.getGameProfile().getName());
 
-            MUtil.chat("Sent teleport request to &e" + player.getGameProfile().getName() + "&7.");
+            if (p != null) {
+                mc.thePlayer.sendChatMessage("/tp " + p.getName() + " " + MUtil.locationToString(map.getJSONObject("locations").getJSONArray("spectate")));
+                mc.thePlayer.sendChatMessage("/skit apply w " + p.getName());
+
+                MUtil.chat("Teleported &e" + player.getGameProfile().getName() + "&7.");
+            } else {
+                mc.thePlayer.sendChatMessage("/eventtphere " + player.getGameProfile().getName()); // event members can't force tp across worlds
+                spectateQueue.put(player, 15 * 20); // 15 seconds
+
+                MUtil.chat("Sent teleport request to &e" + player.getGameProfile().getName() + "&7.");
+            }
         } else {
             this.sendHelp();
         }
@@ -185,6 +194,8 @@ public class CRRCommand  extends CommandBase {
                     mc.thePlayer.sendChatMessage("/skit apply w " + p.getName());
 
                     spectateQueue.remove(player);
+
+                    MUtil.chat("Teleported &e" + player.getGameProfile().getName() + "&7.");
                 }
             }
         }
