@@ -19,7 +19,7 @@ import nl.hpfxd.munchyevent.features.crr.CRRTeam;
 @Mod(modid = MunchyEvent.MODID, version = MunchyEvent.VERSION)
 public class MunchyEvent {
     public static final String MODID = "munchyevent";
-    public static final String VERSION = "1.1";
+    public static final String VERSION = "1.2";
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
